@@ -18,8 +18,12 @@ People can then access the the account via sso diretory link or ADFS if it is in
 ## Terraform / Terragrunt
 
 ### All resource are created via terraform that you can see in root directory
-sso_automation.tf 
-terragrunt.hcl for all inputs
+
+
+#### sso_automation.tf 
+
+
+#### terragrunt.hcl for all inputs
 
 #### terragrunt init
 ####  terragrung plan

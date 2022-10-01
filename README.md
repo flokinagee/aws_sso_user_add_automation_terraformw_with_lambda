@@ -25,9 +25,10 @@ People can then access the the account via sso diretory link or ADFS if it is in
 
 #### terragrunt.hcl for all inputs
 
-#### terragrunt init
-####  terragrung plan
-####  terragrunt apply
+### Execute TerraGrunt to create resource 
+#### 1) terragrunt init
+#### 2) terragrung plan
+#### 3) terragrunt apply
 
 ### Lambda configuration can be found at sso_automation/
 

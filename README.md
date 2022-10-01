@@ -29,7 +29,7 @@ sso_automation.tf
 #### 1) make test (for test case)
 
 
-NagarajansMBP2:sso_automation naga$ make 
+NagarajansMBP2:sso_automation naga$ make test
 
 python3 test_SsoUserCreation.py
 

@@ -20,9 +20,13 @@ People can then access the the account via sso diretory link or ADFS if it is in
 ### All resource are created via terraform that you can see in root directory
 sso_automation.tf
 
+#### terragrunt init
+####  terragrung plan
+####  terragrunt apply
+
 ### Lambda configuration can be found at sso_automation/
 
-1) make test (for test case)
+#### 1) make test (for test case)
 
 
 NagarajansMBP2:sso_automation naga$ make 
@@ -72,7 +76,7 @@ OK
 
 NagarajansMBP2:sso_automation naga$ 
 
-2) make clean
+#### 2) make clean
 
 NagarajansMBP2:sso_automation naga$ make clean
 
@@ -81,7 +85,7 @@ find . -name __pycache__ -exec rm -r {} \;
 find: ./__pycache__: No such file or directory
 
 
-3) make build (to generate build.zip )
+#### 3) make build (to generate build.zip )
 
 
 NagarajansMBP2:sso_automation naga$ make build
